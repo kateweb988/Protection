@@ -1,0 +1,664 @@
+@media screen and (max-width: 1600px)
+   .container
+      max-width: 1350px
+   .nav__box ul li
+      margin-right: 30px
+      a 
+         font-size: 18px
+   .nav__logo
+      width: 160px
+   .nav__tel
+      font-size: 17px
+      img
+         margin-right: 10px
+   .nav__box ul
+      left: 0
+   .ser__item
+      height: auto
+   .ser__item p, .how__item p, .pay__item ul li, .we__info p, .call__form p, .other__text
+      br 
+         display: none
+   .how__line
+      width: 100%
+   .pay__item ul li
+      font-size: 16px
+      line-height: 24px
+   .pay__item ul
+      margin-bottom: 25px
+   .we__pic 
+      margin-top: 171px
+      left: 0
+      width: 44%
+   h2, .we__block h3
+      font-size: 40px
+      line-height: 50px
+   .call__block, .call__form 
+      max-width: 31%
+   .call__box #map
+      width: 34%
+   .call__block
+      padding: 80px 40px
+   .stage__item img
+      width: 44%
+   .per_4 .per__item
+      height: auto
+   .cost__box
+      img 
+         width: 50%
+         margin-right: 40px
+   .why__item
+      height: auto
+   .other .why__item
+      height: auto
+@media screen and (max-width: 1350px)
+   .container
+      max-width: 1200px
+   .nav__box ul li a
+      font-size: 15px
+   .ser__item p
+      font-size: 14px
+      line-height: 24px
+   .ser__item
+      padding: 40px
+   .per__item img
+      height: 350px
+   .how__item h3
+      font-size: 15px
+   .how__item p
+      font-size: 15px
+      line-height: 24px
+   .pay__title
+      font-size: 21px
+      line-height: 30px
+   .txt
+      br 
+         display: none
+   .call .accordeon .accordeon__button
+      margin-top: 60px
+   .call
+      padding: 100px 0
+   .stage__content
+      max-width: 619px
+   .stage__text
+      br 
+         display: none
+   #per_3 .per__item img
+      width: 100%
+      height: 250px
+@media screen and (max-width: 1199px)
+   .menu-btn 
+      width: 48px
+      height: 24px
+      position: absolute
+      right: 34px
+      top: 44px
+      z-index: 11
+      overflow: hidden
+   .menu-btn span 
+      width: 38px
+      height: 2px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: $green
+      transition: all 0.5s
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 38px
+      height: 2px
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 38px
+      height: 2px
+   .menu 
+      position: fixed
+      top: 0
+      right: 0
+      width: 40%
+      height: 100%
+      padding: 60px 40px 40px
+      background: rgb(35, 31, 32)
+      transform: translateX(500%)
+      transition: transform 0.5s
+      z-index: 7
+      overflow: hidden
+      -webkit-box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      -moz-box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      ul 
+         margin-bottom: 40px
+         li 
+            margin-bottom: 25px
+            a 
+               color: white
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: fixed
+      right: 30px
+      top: 30px
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+      margin-left: 0
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+      margin-left: 0
+   .menu-btn, .menu
+      display: block
+   .nav__box .nav__list, .nav__box .nav__tel, .how__line
+      display: none
+   h1 
+      font-size: 40px
+      line-height: 48px
+   .nav
+      padding: 20px 0
+   .header__box
+      margin-top: 40px
+   .header
+      padding-bottom: 180px
+   h2, .we__block h3 
+      font-size: 32px
+      line-height: 43px
+   .work h2
+      margin-bottom: 20px
+   .txt 
+      font-size: 16px
+      line-height: 24px
+   .ser
+      padding: 130px 0 60px
+   .ser__box
+      margin-top: 40px
+      flex-direction: column
+   .ser__item
+      width: 100%
+      margin-bottom: 25px
+   .per
+      padding: 60px 0
+   .per__box
+      margin-top: 40px
+      flex-wrap: wrap
+   .per__item
+      margin-bottom: 35px
+      width: 47% !important
+   .per__item img
+      margin-bottom: 15px
+   .how 
+      padding: 50px 0 150px
+   .how__item img
+      margin-top: 20px
+   .how__box
+      margin-top: 40px
+      flex-wrap: wrap
+   .how__item
+      width: 47% !important
+      left: 0 !important
+      margin-bottom: 35px
+   .how__btn
+      margin-top: 30px
+   .pay 
+      padding: 129px 0 50px
+   .pay__box
+      margin-top: 40px
+      flex-direction: column
+   .pay__item
+      width: 100%
+      margin-bottom: 25px
+      height: auto
+      min-height: auto
+      &:last-child
+         margin-bottom: 0
+   .we__box
+      margin-top: 60px
+      flex-direction: column
+      align-items: center
+   .we__pic
+      margin-top: 0
+      margin-bottom: 25px
+   .we__content
+      margin-left: 0
+      max-width: 100%
+   .we__row
+      margin-top: 25px
+      flex-direction: column
+   .we__block
+      width: 100%
+      padding: 40px 
+      margin-bottom: 25px
+   .we__wrap p, .area__content p
+      font-size: 16px
+      line-height: 25px
+      br 
+        display: none
+   .area__box
+      margin-top: 40px
+      flex-direction: column
+   .area__item
+      height: auto
+      width: 100%
+      margin-bottom: 25px
+   .call
+      padding: 20px 0 60px
+   .call h2.green
+      margin: 20px 0
+   .call__box
+      margin-top: 40px
+      flex-direction: column
+   .call__block, .call__form
+      max-width: 100%
+      height: auto
+   .call__box #map
+      width: 100%
+      height: 400px
+      margin: 25px auto
+   .call .accordeon h2
+      margin-bottom: 20px
+   .call .accordeon p 
+      font-size: 16px
+      line-height: 25px
+      margin-bottom: 20px
+   .call .accordeon .accordeon__button.active
+      bottom: 0
+   .footer__box
+      padding: 25px 0 
+      flex-direction: column 
+   .footer__box
+      .nav__tel
+         margin: 25px auto
+         order: 2
+      .nav__logo
+         order: 1
+      p 
+         order: 3
+   .stage__item
+      flex-direction: column
+      margin-bottom: 60px
+      &:nth-child(2n)
+         flex-direction: column-reverse
+   .stage__item img
+      height: 315px
+      width: 67%
+      margin-bottom: 25px
+   .stage__content .sub
+      margin-bottom: 15px
+   #stage_3
+      padding: 100px 0 270px
+      .stage__item
+         flex-direction: column-reverse
+   #per_3 .per__item:nth-child(n+4)
+      margin-bottom: 40px !important
+   #per_3 .per__item:nth-child(n+6)
+      margin-bottom: 0 !important
+   .ser_3 .ser__box
+      flex-direction: initial
+   .ser_3
+      padding-bottom: 150px !important
+   .per_4
+      padding-top: 150px !important
+   .per_4 .per__item p
+      br 
+         display: none
+   .per_4 .per__item
+      &:last-child
+         margin: 0 auto
+   .why__box
+      flex-wrap: wrap
+   .why__item
+      width: 47%
+      margin-bottom: 30px
+      &:last-child
+         margin-bottom: 0
+   .cost__box
+      flex-direction: column
+   .cost__box img
+      margin-right: 0
+      margin-bottom: 30px
+   .cost__content
+      max-width: 100%
+   .cost 
+      padding-top: 120px
+   .cost__text
+      margin-bottom: 40px
+   .how_2 
+      padding-bottom: 274px !important
+   #work_3 
+      .fig
+         bottom: -17px
+   .item__row
+      flex-direction: column 
+      align-items: center
+   .item__block
+      width: 100%
+      margin-left: 0
+      margin-top: 30px
+   .item .pay__title
+      text-align: center
+      margin-left: 0
+   .item
+      padding-bottom: 60px
+   .item_2 .item__block
+      margin-left: 0
+   .other
+      margin-top: -20px
+   .other__box
+      margin: 40px 0 70px
+   .why__box
+      margin-top: 40px
+   .other .cost__wrap
+      margin-top: 100px
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .menu
+      width: 50%
+   .header__box p
+      font-size: 20px
+      margin-bottom: 5px
+   .header__tel
+      font-size: 38px
+   .per__item img
+      height: 300px
+   .we__pic
+      width: 60%
+   .area__block
+      width: 400px
+      height: auto
+      margin-left: auto
+      margin-right: auto
+      img 
+         width: 100%
+         height: 100%
+         object-fit: contain
+   .area__content
+      padding-top: 130px
+   .call__block
+      padding: 40px
+   .per_2 .per__item img
+      height: 300px
+   .per_4 .per__item
+      width: 100% !important
+   .per_2 .per__box
+      margin-top: 40px
+   .why__item
+      width: 100%
+   .cost__box img
+      width: 100%
+      height: 400px
+      object-fit: cover
+   .cost__box
+      margin-bottom: 60px 
+   .item .title
+      font-size: 32px
+      line-height: 43px
+      margin-bottom: 50px
+   .item__block, .other__item
+      padding: 30px
+@media screen and (max-width: 767px)
+   h1 
+      font-size: 33px
+      line-height: 42px
+   .sub
+      font-size: 18px
+      margin-bottom: 15px
+   h2, .we__block h3 
+      font-size: 24px
+      line-height: 37px
+   .work
+      padding-bottom: 120px
+   .ser__item
+      img
+         width: 90px
+      h3 
+         margin: 15px 0 8px
+         font-size: 16px
+         line-height: 25px
+   .ser 
+      padding-bottom: 10px
+   .txt 
+      font-size: 14px
+      line-height: 22px
+   .how__item
+      width: 100% !important
+   .how__btn
+      width: 100%
+      height: 60px
+      font-size: 16px
+   .btn 
+      font-size: 16px
+   .pay__item
+      padding: 40px 20px
+   .we__item
+      flex-direction: column 
+      align-items: center
+      text-align: center
+   .we__info
+      margin-left: 0
+      margin-top: 20px
+   .we__info p, .we__block p
+      font-size: 16px
+      line-height: 24px
+   .we__block h3
+      margin-bottom: 20px
+   .we__wrap
+      padding: 60px 20px
+   .we__wrap h2
+      margin-bottom: 20px
+      br 
+        display: none 
+   .we__arrow
+      width: 140px
+      margin-left: -70px
+      bottom: -83px
+   .area 
+      padding: 82px 0 60px
+   .area__block
+      width: 250px
+   .area__item h3
+      margin-bottom: 40px
+   .call__tel
+      font-size: 28px
+   .call .accordeon .accordeon__button
+      font-size: 16px
+   .footer__box p
+      font-size: 14px
+      text-align: center
+   .page .call__box
+      margin-top: 190px
+   .page .call .fig
+      height: 100px
+      top: 137px
+   .ask
+      padding: 80px 0 200px
+   .ask__fig
+      height: 525px
+   .ser_3 .ser__box
+      flex-direction: column
+      margin-bottom: 40px
+   .ser_3 .ser__item
+      width: 100%
+      height: auto
+   .ser_3 .ser__item h3
+      min-height: inherit
+   .ser_3
+      padding-bottom: 120px !important
+   .per_4
+      padding-top: 120px !important
+      padding-bottom: 40px
+   .per_4 .per__item img
+      margin-bottom: 20px
+      width: 80px !important
+   .per_4 .per__item p, .why__item p
+      font-size: 16px
+      line-height: 26px
+   .per_4 .per__item h3, .why__item h3
+      font-size: 18px
+   .per_4 .per__item
+      padding: 30px
+   .why__box
+      margin-top: 30px
+   .why__item
+      padding: 30px
+   .why 
+      padding-bottom: 220px
+   .why .fig
+      height: 250px
+   .cost__box img
+      height: 300px
+   .cost__list li p 
+      font-size: 14px
+      line-height: 26px
+   .cost__text, .cost__wrap p, .item__block p
+      font-size: 16px
+      line-height: 26px
+   .cost__wrap
+      padding: 30px
+   .item__block p
+      margin-bottom: 20px
+   .item__row
+      img 
+         width: 100%
+   .item .pay__item
+      padding: 30px 20px 20px
+   .item .pay__box
+      margin-bottom: 60px
+   .item .fig
+      bottom: -23px
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mm 
+      flex-direction: column 
+      align-items: center
+      justify-content: center
+      li 
+         margin-bottom: 40px !important
+         width: 100% !important
+         margin-top: 0 !important
+   .mob 
+      display: block !important
+   .menu-btn
+      right: 15px
+   .menu
+      width: 100%
+   h1 
+      font-size: 24px
+      line-height: 32px
+   .header__tel
+      font-size: 30px
+      line-height: 40px
+   .header__btn
+      height: 60px
+   .header
+      padding-bottom: 125px
+   h2, .we__block h3 
+      font-size: 22px !important
+      line-height: 33px !important
+   .sub
+      font-size: 16px
+   .ser 
+      padding-top: 100px
+   .ser__item
+      padding: 30px 20px
+   .per__item
+      width: 100% !important
+   .pay__btn
+      width: 100%
+   .we__pic
+      width: 85%
+   .we__item, .we__block
+      padding: 30px 20px 
+   .we__icon
+      width: 90px
+      left: 0
+   .area__item
+      padding-top: 30px
+   .area__item h3
+      font-size: 21px
+   .area__content
+      padding-left: 20px
+      padding-right: 20px
+      padding-bottom: 30px
+   .area 
+      padding-bottom: 40px
+   .call__form
+      padding: 30px 20px
+   .call__form form button
+      font-size: 18px
+   .page .call
+      padding-top: 60px
+   .work_2
+      margin-top: -50px
+   .stage__item img
+      width: 100%
+      height: 250px
+   .stage__text 
+      font-size: 14px
+      line-height: 27px
+      margin-top: -8px
+   .per_2 .per__box
+      margin-top: 40px
+   .per_2 .per__item img
+      height: 250px
+   .per_2 .per__item h3:after
+      margin: 10px auto
+   .per__item, #per_3 .per__item:nth-child(n+6), #per_3 .per__item:nth-child(n+4)
+      margin-bottom: 45px !important
+   #per_3
+      padding-bottom: 36px
+   #stage_3
+      padding-top: 60px
+   .we__wrap
+      margin-top: 40px
+      padding-top: 40px
+   .cost__wrap h2
+      font-size: 18px !important
+   .ser_3__wrap 
+      margin-top: -100px
+      margin-bottom: 40px
+      padding: 90px 0 46px
+   .how_2 
+      padding-bottom: 207px !important
+   .cost_2
+      padding-top: 90px
+   .cost_2 .we__bg
+      bottom: 0
+   .header-auto
+      .header__bg
+         object-position: -108px 0px
+   #work_3 .fig
+      bottom: -72px
+   .item__row img
+      width: 75%  
+   .item
+      padding: 60px 0
+   .item__block h2
+      margin-bottom: 20px
+   .other
+      margin-top: -60px
+      padding-bottom: 60px
+   .other__top p, .other__text
+      font-size: 18px
+      line-height: 26px
+   .other__icon
+      margin-right: 30px
+   .other .cost__wrap h2
+      line-height: 26px !important
